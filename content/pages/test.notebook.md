@@ -1,1 +1,5 @@
 test
+
+```http
+GET /test
+```
