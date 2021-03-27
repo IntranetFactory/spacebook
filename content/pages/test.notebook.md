@@ -34,6 +34,3 @@ const currencyChart = new Chart(canvas.getContext("2d"),
 
 canvas
 ```
-```javascript
-
-```
