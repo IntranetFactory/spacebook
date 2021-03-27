@@ -1,5 +1,2 @@
-test
-
-```http
-GET /test
-```
+# %% [javascript]
+3+5
