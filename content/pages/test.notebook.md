@@ -1,2 +1,5 @@
+# %% [markdown]
+h1
 # %% [javascript]
-1
+console.log("1");
+# %% [javascript]
