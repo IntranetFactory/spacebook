@@ -12,7 +12,7 @@ const data = await fetch(`https://api.exchangerate.host/timeseries?start_date=20
 var jsonData = await data.json();
 jsonData
 ```
-```javascript {"properties":{"run_on_load":true,"collapsed":true}}
+```javascript {"properties":{"run_on_load":true}}
 // Chart.js creates a global `Chart` object when it is loaded.
 await import("https://unpkg.com/chart.js@2.9.3/dist/Chart.bundle.min.js");
 
