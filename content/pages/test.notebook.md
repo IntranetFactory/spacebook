@@ -4,7 +4,7 @@ In this notebook we will visualize the US Dollar to Euro exchange rate using the
 After that we will also create a simple currency calculator.
 
 > Tip: Press the ▶ Play button on the left to run a cell.
-```javascript
+```javascript {"properties":{"run_on_load":true}}
 const today = new Date().toISOString().slice(0,10); // Today in yyyy-mm-dd format
 const data = await fetch(`https://api.exchangerate.host/timeseries?start_date=2020-01-01&end_date=${today}`);
 
